@@ -1,0 +1,857 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,700&display=swap');
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.main-header{
+    background-color: #126D63;
+    padding: 15px 0px;
+}
+.header-contant{
+    margin: 0px 100px;
+}
+
+.header-contact{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    position: absolute;
+}
+.man{
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    
+    
+}
+.man p{
+    font-size: 16px;
+    margin: 5px 0px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 10px;
+    text-transform: capitalize;
+}
+.man p:hover{
+    color: #F86F03;
+}
+.man p i{
+    padding: 0px 10px;
+    
+}
+header{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    
+    
+    
+}
+ul li{
+    list-style: none;
+    margin: 0px 15px;
+    
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+.get{
+    background-color: #F86F03;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #ddd;
+    cursor: pointer;
+
+}
+.get:hover{
+    background-color: #126D63;
+}
+.get a{
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+}
+/* section- ferst code start */
+.section-ferst{
+    background-image: url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.section-ferst .men{
+    margin-top: 140px;
+    animation-duration: 2s;
+}
+.section-ferst .men h5{
+    color: #126D63;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.section-ferst .men h1{
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: 700;
+    color: #102039;
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-ferst .men p{
+    color: #6c535b;
+    font-family: 'Roboto', sans-serif;
+}
+.section-ferst .men .vidote{
+    margin-top: 40px;
+
+}
+.section-ferst .men .vidote a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-ferst .men .vidote a span{
+    
+    font-weight: 600;
+    color: #726066;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    font-size: 17px;
+    text-transform: capitalize;
+    background-color: #F86F03;
+    padding: 10px 30px;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover{
+    background-color: #126D63;
+    color: #ddd;
+}
+.hero-img{
+    float: right;
+    animation-duration: 2s;
+}
+/* section tow code start  */
+.section-tow{
+    padding: 80px 0px;
+}
+.popular{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+    padding: 40px 0px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.popular h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #102039;
+    font-family: 'Roboto', sans-serif;
+}
+.four-div{
+   align-items: center;
+    padding: 40PX 10px;
+    border: 1px solid #102039;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    animation-duration: 2s;
+}
+.four-div::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 225px;
+    border: 1px solid #88B6B1;
+    transform: rotate(6deg);
+    border-radius: 10px;
+    z-index: -1;
+    
+}
+.four-div::after:hover{
+    background-color: #F86F03;
+}
+
+.four-div .img{
+    text-align: center;
+}
+.four-div .img img{
+    padding: 10px;
+    background-color: #88B6B1;
+    margin-bottom: 19px;
+    border-radius: 5px;
+}
+.four-div .img a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.four-div .img a h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #102039;
+    font-family: 'Roboto', sans-serif;
+}
+.four-div .img h6{
+    font-size: 20px;
+    color: #102039;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.teaching-section{
+    background-image: url("../img/teaching-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.teaching-section::after{
+    content: "";
+    background-color: #00000053;
+    height: 67%;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.teaching-section .teaching-img{
+    margin-bottom: 100px;
+}
+.teaching-section .teaching-contant{
+    margin-top: 170px;
+}
+.teaching-section .teaching-contant h6{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.teaching-section .teaching-contant h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 50px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+.teaching-section .teaching-contant button{
+    margin-top: 20px;
+}
+/* section tow code end  */
+/* benefeet-section code start */
+.section-four{
+    padding: 70px 0px;
+    
+}
+.benefeet-section{
+    padding: 20px 10px;
+    animation-duration: 3s;
+}
+.benefeet-section h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #F86F03;
+    font-family: 'Roboto', sans-serif;
+}
+.benefeet-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #102039;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.benefeet-section > p{
+    font-size: 16px;
+    color: #897373;
+    font-family: 'Roboto', sans-serif;
+}
+.about-img-up{
+    animation-duration: 3s;
+}
+
+.smal-img p{
+    margin: 20px 0px;
+    color: #897373;
+    font-family: 'Roboto', sans-serif;
+}
+.smal-img p img{
+    margin-right: 10px;
+}
+.smal-img button{
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+.section-four .about-img-down{
+    margin-top: 50px;
+    animation-duration: 3s;
+}
+.section-four .singal-img{
+    width: 250px;
+}
+.section-four .singal-img img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* benefeet-section code end */
+/* section-five code start */
+.online-course-start{
+    padding: 80px 0px;
+    background-color: #FFFCF3;
+}
+.online-course-start .online-main-corse{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.online-course-start .head-contatan{
+    text-align: center;
+    padding: 50px 0px;
+}
+.online-course-start .head-contatan h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #102039;
+    text-transform: capitalize;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.online-course-start .online-main-corse .online-course-contant .degination{
+   
+    margin-top: -20px;
+   
+}
+.online-course-start .online-main-corse .online-course-contant .degination p a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #126D63;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+	
+    transition: 0.5s;
+}
+.online-main-corse:hover .online-course-contant .degination p a{
+    background-color: #F86F03;
+}
+.online-course-start .online-main-corse .online-course-contant .degination h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+}
+
+.online-course-start .head-contatan p a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #897373;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.online-main-corse:hover .degination p a{
+    background-color: #F86F03;
+    color: #ddd;
+}
+.online-course-start .online-main-corse .online-course-img{
+    width: 354px;
+}
+.online-course-start .online-main-corse .online-course-img img{
+    width: 100%;
+}
+.online-course-start .online-main-corse .online-course-contant{
+    padding: 0px 15px;
+}
+.online-course-start .online-main-corse .online-course-contant h2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.online-course-start .online-main-corse .digination-contant h6{
+    padding: 10px 0px;
+}
+.online-course-start .online-main-corse .digination-contant h6 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #897373;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.online-course-start .online-main-corse .digination-contant h4 a{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #102039;
+    transition: 0.5s;
+
+}
+.online-main-corse:hover .digination-contant h4 a{
+    color: #F86F03;
+}
+.online-main-corse:hover .digination-contant h6 a{
+    color: #F86F03;
+}
+
+.online-course-start .online-main-corse .star-contant{
+    padding: 15px 0px;
+    
+    border-bottom: 1px solid #ddd;
+}
+.online-course-start .online-main-corse .star-contant i{
+    color: #FED619;
+}
+.online-course-start .online-main-corse .star-contant span{
+    margin-left: 40px;
+}
+.online-course-start .online-main-corse .time-dolar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+}
+.online-course-start .online-main-corse .time-dolar .time i{
+    color: #126D63;
+    padding: 0px 5px;
+}
+.online-course-start .online-main-corse .online-course-contant .dolar p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px 15px;
+    color: #ddd;
+    background-color: #126D63;
+    border-radius: 10px;
+    
+}
+
+/* section-five code end */
+/* section-six code start */
+.meet-section{
+    padding: 80px 0px;
+}
+.meet-section .meet-contat{
+    text-align: center;
+}
+.meet-section .meet-contat h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #102039;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.meet-section .meet-contat p{
+    font-size: 16px;
+    color: #897373;
+    font-family: 'Roboto', sans-serif;
+}
+.meet-section .meet-contant-img{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.5s;
+    position: relative;
+    box-shadow: 2px 5px 10px;
+    
+}
+
+.meet-section .meet-contant-img .meet-icon{
+    padding: 0px 5px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scaley(0);
+    transform-origin: bottom;
+    
+    
+}
+.meet-section .meet-contant-img:hover .meet-icon{
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    transform: scaley(1);
+
+}
+
+.meet-section .meet-contant-img .meet-icon i{
+    font-size: 15px;
+    background-color: #126D63;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    
+   
+}
+.meet-section .meet-contant-img .meet-icon i:hover{
+    background-color: #F86F03;
+    color: #fff;
+}
+.meet-contant-img{
+    width: 250px;
+}
+.meet-section .meet-contant-img .meet-img img{
+    width: 100%;
+}
+.meet-section .meet-contant-img .meet-digination{
+    text-align: center;
+    padding: 10px 0px;
+}
+.meet-section .meet-contant-img .meet-digination h4{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    color: #102039;
+    font-family: 'Roboto', sans-serif;
+}
+/* section-six code end */
+/* section-seven code start */
+.secen-section{
+    background-image: url("../img/counterup-feature-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.secen-section .learg-icon{
+    padding: 70px 0px;
+    text-align: center;
+    margin-top: 200px;
+}
+.secen-section .learg-icon img{
+    padding: 10px 0px;
+}
+.secen-section .learg-icon h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.secen-section .learg-icon h5{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.video-img-contant{
+    position: relative;
+    
+}
+.video-img-contant .seven-img{
+    width: 350px;
+}
+.video-img-contant .seven-img img{
+    width: 100%;
+}
+.video-img-contant .seven-contant{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+.video-img-contant .seven-contant .seven-video a i{
+    padding: 10px;
+    color: #126D63;
+    background-color: #fff;
+    border-radius: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.video-img-contant .seven-contant .img-contant h4 a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+/* section-seven code end */
+/* section-eight code start */
+.section-eight{
+    padding: 90px 0px;
+}
+.section-eight .fedbag-contand{
+    text-align: center;
+}
+.section-eight .fedbag-contand h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #102039;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.frist-slid-contant{
+    box-shadow: 3px 3px 5px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 3px;
+}
+.frist-slid-contant .slid-img{
+    margin-right: 15px;
+    
+}
+.frist-slid-contant .slid-img .site-min-img{
+    width: 80px;
+    height: 80px;
+}
+.frist-slid-contant .slid-img img{
+    width: 100%;
+    
+    border-radius: 100%;
+    
+}
+.frist-slid-contant .slid-img .site-name{
+    align-items: center;
+    margin-left: 20px;
+}
+.frist-slid-contant .slid-img .site-name h4{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #126D63;
+    margin-top: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.frist-slid-contant .slid-img .site-name p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #a09393;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.frist-slid-contant .disply-fliex{
+    display: flex;
+    justify-content: space-between;
+}
+.frist-slid-contant .disply-fliex .site-cont p{
+    font-size: 40px;
+    font-weight: 800;
+    color: #857b7b;
+    font-family: 'Roboto', sans-serif;
+}
+.frist-slid-contant .disply-fliex .site-cont{
+    margin-bottom: 10px;
+
+}
+.slid-img{
+    display: flex;
+    
+}
+/* section-eight code end */
+/* section-ten code start */
+.last-artical-contant{
+    padding: 80px 0px;
+    background-color: #FFFCF3;
+}
+.first-aril-contant{
+    text-align: center;
+}
+.first-aril-contant h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #102039;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.first-aril-contant p{
+    font-size: 17px;
+    color: #102039a9;
+    font-family: 'Roboto', sans-serif;
+}
+.aril-down-cont{
+    margin-top: 50px;
+    box-shadow: 3px 3px 5px;
+    border-radius: 10px;
+    
+}
+.aril-down-cont .aril-down-img{
+    width: 355px;
+}
+.aril-down-cont .aril-down-img img{
+    width: 100%;
+}
+.aril-down-cont .aril-main-contant{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aril-down-cont .aril-main-contant .aril-hiding h4 a{
+    text-decoration: none;
+    color: #102039;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.aril-down-cont .aril-main-contant .aril-hiding h4 a:hover{
+    color: #b95b13d2;
+}
+.aril-down-cont .aril-main-contant .acount-durati span a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #03443d;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.aril-down-cont .aril-main-contant .acount-durati span a:hover{
+    color: #F86F03;
+}
+.novembr{
+    margin-left: 30px;
+}
+
+.aril-buttn button{
+    padding: 15px 25px;
+    border: 1px solid #03443d;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.aril-buttn button:hover{
+    background-color: #F86F03;
+}
+
+/* section-ten code end */
+/* footer-section start */
+.footer-section{
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.footer-staet{
+    padding: 40px 0px;
+    margin-top: 70px;
+    
+}
+.footer-staet h4{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-staet p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(219, 216, 211, 0.7);
+    text-transform: capitalize;
+    
+
+}
+.footer-staet p a{
+    color: rgba(219, 216, 211, 0.7);
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-staet p a:hover{
+    color: #F86F03;
+}
+.footer-staet p i{
+    margin-right: 15px;
+}
+.footer-staet .dat-tim{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b4adad;
+    padding: 2px 0px;
+}
+
+.footer-br{
+    color: #ddd;
+}
+.footer-bootum{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bootum .copy p{
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-bootum .copy p span a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F86F03;
+    font-family: 'Roboto', sans-serif;
+}
+.about-section{
+    display: flex;
+}
+.about-section ul li a{
+    color: #fff;
+    font-size: 16px;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.about-section ul li a:hover{
+    color: #F86F03;
+}
+/* footer-section end */
